@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vantage Markets | Trading Platform Overview</title>
+    <meta name="description" content="Learn about Vantage Markets, trading instruments, platforms, account types, market tools and general trading information.">
+    <meta name="keywords" content="Vantage Markets, Vantage trading, Forex, CFDs, MetaTrader 4, MetaTrader 5, Vantage App, trading platforms">
+    <meta name="robots" content="index, follow">
+    <!-- Local favicon filename; edit it if you want to use another image -->
+    <link rel="icon" href="vantage-favicon.jfif" type="image/jpeg">
+
+    <style>
+        :root {
+            --background: #f4f6f4;
+            --text: #171b17;
+            --muted: #687168;
+            --border: #e1e6df;
+            --lime: #c8f43a;
+            --dark: #101610;
+            --card: #ffffff;
+        }
+
+        * { box-sizing: border-box; }
+
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            color: var(--text);
+            background: var(--background);
+            line-height: 1.7;
+        }
+
+        .wrap {
+            width: min(1120px, 92%);
+            margin: auto;
+        }
+
+        /* HEADER */
+        .header {
+            background: var(--dark);
+            color: #ffffff;
+            padding: 22px 0;
+        }
+
+        .brand {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            font-size: 1.3rem;
+            font-weight: 800;
+        }
+
+        .brand img {
+            width: 48px;
+            height: 48px;
+            object-fit: contain;
+        }
+
+        /* FULL-WIDTH BANNER IMAGE */
+        .banner {
+            width: 100%;
+            overflow: hidden;
+            margin: 0;
+            padding: 0;
+        }
+
+        .banner img {
+            display: block;
+            width: 100%;
+            height: auto;
+            max-height: none;
+            object-fit: contain;
+            border-radius: 0;
+        }
+
+        /* MAIN CONTENT */
+        .main { padding: 30px 0 60px; }
+        .intro { font-size: 1.08rem; margin: 0 0 22px; }
+
+        /* FEATURE BOXES */
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 16px;
+            margin: 24px 0 34px;
+        }
+
+        .card {
+            background: var(--card);
+            border: 1px solid var(--border);
+            border-radius: 14px;
+            padding: 21px;
+            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.035);
+        }
+
+        .number {
+            width: 36px;
+            height: 36px;
+            display: grid;
+            place-items: center;
+            border-radius: 10px;
+            background: var(--lime);
+            color: #161a15;
+            font-weight: 800;
+            margin-bottom: 11px;
+        }
+
+        .card h3 { margin: 0 0 8px; font-size: 1.06rem; }
+        .card p { margin: 0; color: var(--muted); }
+        h2 { font-size: 1.65rem; line-height: 1.3; margin: 34px 0 12px; }
+        p { margin: 0 0 15px; }
+
+        /* TWO-COLUMN LAYOUT */
+        .grid2 {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 16px;
+        }
+
+        /* DARK FEATURE PANEL */
+        .dark-panel {
+            background: var(--dark);
+            color: #ffffff;
+            border-radius: 16px;
+            padding: 24px;
+            margin: 28px 0;
+        }
+
+        .dark-panel h2 { margin: 0 0 10px; }
+        .dark-panel p { color: #d4dbd2; }
+
+        .tag {
+            display: inline-block;
+            background: var(--lime);
+            color: #171b15;
+            border-radius: 999px;
+            padding: 5px 12px;
+            font-weight: bold;
+            font-size: 0.85rem;
+            margin: 4px 5px 4px 0;
+        }
+
+        /* INFORMATION BOX */
+        .notice {
+            background: #f0f8dc;
+            border-left: 4px solid var(--lime);
+            border-radius: 8px;
+            padding: 16px 18px;
+            margin: 22px 0;
+        }
+
+        /* FOOTER */
+        .footer {
+            background: var(--dark);
+            color: #d1d8d0;
+            padding: 24px 0;
+            font-size: 0.9rem;
+        }
+
+        .footer strong { color: #ffffff; }
+
+        /* MOBILE RESPONSIVE */
+        @media (max-width: 760px) {
+            .cards, .grid2 { grid-template-columns: 1fr; }
+            .header { padding: 17px 0; }
+            .main { padding-top: 22px; }
+            h2 { font-size: 1.4rem; }
+            .card { padding: 18px; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- HEADER AND BRAND -->
+    
+
+    <!-- FULL-WIDTH BANNER: REPLACE IMAGE FILE NAME HERE -->
+    <section class="banner">
+        <img src="Vantage Markets.png" alt="Vantage Markets banner">
+    </section>
+
+    <!-- MAIN PAGE CONTENT -->
+    <main class="wrap main">
+
+        <!-- INTRODUCTION -->
+        <p class="intro">
+            <strong>Vantage Markets</strong> is a multi-asset CFD broker offering access to various financial markets through trading platforms and account services. Its platform options include the Vantage App, web-based trading, MetaTrader 4 and MetaTrader 5. Available instruments, account features and services can differ depending on the client’s location and the entity providing the service.
+        </p>
+
+        <!-- THREE FEATURE BOXES -->
+        <section class="cards">
+            <div class="card">
+                <div class="number">01</div>
+                <h3>Multiple Markets</h3>
+                <p>Explore market categories such as forex, indices, commodities, shares and other CFD instruments, subject to availability.</p>
+            </div>
+
+            <div class="card">
+                <div class="number">02</div>
+                <h3>Trading Platforms</h3>
+                <p>Platform choices include Vantage App, Web Trading, MetaTrader 4 and MetaTrader 5.</p>
+            </div>
+
+            <div class="card">
+                <div class="number">03</div>
+                <h3>Practice Account</h3>
+                <p>Demo-account features let users explore a simulated trading environment using virtual funds.</p>
+            </div>
+        </section>
+
+        <!-- ABOUT VANTAGE -->
+        <h2>What Is Vantage Markets?</h2>
+        <p>Vantage Markets provides access to leveraged derivative products, including contracts for difference (CFDs). CFDs allow users to speculate on price movements of an underlying asset without owning the underlying asset. The company offers trading tools, account options, market information and learning resources for different levels of experience.</p>
+
+        <!-- MARKETS -->
+        <h2>Markets Available</h2>
+        <p>Instrument availability can depend on the account, regional entity and platform. The markets commonly described by Vantage include a range of CFD categories.</p>
+
+        <div class="grid2">
+            <div class="card">
+                <h3>Forex</h3>
+                <p>Currency pairs are traded based on changes in exchange rates between currencies.</p>
+            </div>
+            <div class="card">
+                <h3>Indices</h3>
+                <p>Index CFDs provide exposure to price movements of selected market indices.</p>
+            </div>
+            <div class="card">
+                <h3>Commodities</h3>
+                <p>Commodity markets may include products such as metals, energy and other commodity instruments.</p>
+            </div>
+            <div class="card">
+                <h3>Shares and Other Instruments</h3>
+                <p>Depending on availability, the platform may include share CFDs, ETFs, bonds and additional instruments.</p>
+            </div>
+        </div>
+
+        <!-- PLATFORMS -->
+        <h2>Vantage Trading Platforms</h2>
+        <p>Vantage Markets offers different platform formats for accessing and managing trading activity. The available platform and features may depend on the account and region.</p>
+
+        <div class="dark-panel">
+            <h2>Platform Options</h2>
+            <p>Platform features can include charting, market information, order management and account tools.</p>
+            <span class="tag">Vantage App</span>
+            <span class="tag">Web Trading</span>
+            <span class="tag">MetaTrader 4</span>
+            <span class="tag">MetaTrader 5</span>
+            <span class="tag">Copy Trading</span>
+            <span class="tag">Demo Trading</span>
+        </div>
+
+        <div class="grid2">
+            <div class="card">
+                <h3>Vantage App</h3>
+                <p>A mobile app for account access, market exploration and supported trading features.</p>
+            </div>
+            <div class="card">
+                <h3>Web Trading</h3>
+                <p>Browser-based access to supported trading tools without installing a desktop platform.</p>
+            </div>
+            <div class="card">
+                <h3>MetaTrader 4</h3>
+                <p>MT4 includes charting tools, indicators and features used for technical analysis and trading strategies.</p>
+            </div>
+            <div class="card">
+                <h3>MetaTrader 5</h3>
+                <p>MT5 provides additional charting, timeframes, indicators and strategy-testing tools.</p>
+            </div>
+        </div>
+
+        <!-- ACCOUNT OPTIONS -->
+        <h2>Trading Account Options</h2>
+        <p>Vantage Markets lists different account types and pricing structures. Account details may include spreads, commissions, minimum trading sizes, base currencies and other conditions. Account availability and terms are subject to regional rules and eligibility.</p>
+
+        <div class="grid2">
+            <div class="card">
+                <h3>Account Conditions</h3>
+                <p>Account types may differ in pricing structure, commission arrangements, spreads and trading conditions.</p>
+            </div>
+            <div class="card">
+                <h3>Base Currencies</h3>
+                <p>Available account currencies and funding options can vary by account and jurisdiction.</p>
+            </div>
+            <div class="card">
+                <h3>Trading Size</h3>
+                <p>Minimum trade size and product specifications are provided in the applicable instrument details.</p>
+            </div>
+            <div class="card">
+                <h3>Leverage and Margin</h3>
+                <p>Leverage and margin requirements vary by product, account type, regulatory entity and client classification.</p>
+            </div>
+        </div>
+
+        <!-- TOOLS -->
+        <h2>Tools and Trading Features</h2>
+        <p>Vantage Markets Trading tools can help users monitor market activity and review information before making their own decisions. Features may include charts, technical indicators, economic calendars, market commentary, news, educational material and account-management tools.</p>
+
+        <div class="dark-panel">
+            <h2>Tools for Market Research</h2>
+            <p>Explore the tools available on the platform and learn how each feature works before relying on it.</p>
+            <span class="tag">Charts</span>
+            <span class="tag">Indicators</span>
+            <span class="tag">Economic Calendar</span>
+            <span class="tag">Market News</span>
+            <span class="tag">Analysis</span>
+            <span class="tag">Learning Resources</span>
+        </div>
+
+        <!-- DEMO ACCOUNT -->
+        <h2>Demo Trading</h2>
+        <p>Vantage Markets Demo accounts use virtual funds to provide a simulated environment for exploring platform features and practising strategies. A demo environment does not fully reproduce live-market execution, emotions, liquidity or financial risk, so results in a demo account may differ from live trading.</p>
+
+        <!-- COPY TRADING -->
+        <h2>Copy Trading</h2>
+        <p>Copy-trading features allow users to follow or replicate strategies from selected signal providers, where the service is available. Copy trading still involves market risk, and another trader’s historical performance does not guarantee future results. Users should understand the settings and potential losses before using such features.</p>
+
+        <!-- LEARNING -->
+        <h2>Learning Resources</h2>
+        <p>Educational materials may include articles, videos, webinars, courses, guides and explanations of trading terminology. Learning resources can help users understand markets, trading platforms, order types and risk-management concepts.</p>
+
+        <!-- REGULATORY AND REGIONAL INFORMATION -->
+        <h2>Regulation and Regional Availability</h2>
+        <p>Vantage Markets  operates through multiple legal entities and regulatory frameworks. The entity servicing an account determines the relevant terms, regulation and client protections. Services are not available in every country or region, so users should check the applicable local eligibility requirements and legal information.</p>
+
+        <!-- RISK NOTICE -->
+        <div class="notice">
+            <strong>Risk Notice:</strong> CFDs and leveraged derivatives are complex products and can result in rapid losses. Leverage magnifies both gains and losses, and these products may not be suitable for everyone. This page is general information, not financial advice. Carefully review product terms, costs and risk disclosures before making decisions.
+        </div>
+
+        <!-- SUMMARY -->
+        <h2>Vantage Markets at a Glance</h2>
+        <p>Vantage Markets brings together trading platforms, market instruments, account options, research tools and educational resources. Users can explore the platform features and available markets, compare account conditions and understand the risks associated with leveraged products before deciding whether the services are suitable for them.</p>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="wrap">
+            <strong>Vantage Markets</strong><br>
+            Informational overview of Vantage markets, platforms and trading features. Trading leveraged products involves risk.
+        </div>
+    </footer>
+
+</body>
+</html>
